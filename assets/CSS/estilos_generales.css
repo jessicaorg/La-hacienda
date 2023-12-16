@@ -1,0 +1,46 @@
+/* Fonts */
+@font-face {
+    font-family: FagoColf-Black;
+    src: url(/assets/Fonts/FagoCoLf-Black.ttf);
+}
+/*General styles*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: montserr;
+    font-size: 16px;
+  }
+h1,h2,h3,h4, li{
+    font-family: FagoColf-Black;
+    text-transform: uppercase;
+}
+h1,h2{
+    font-size: 3rem;
+
+}
+h3{
+    font-size: 3.5rem;
+}
+h4{
+    font-size: 2.25rem;
+}
+p{
+    font-size: 1.25rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+a {
+    text-decoration: none;
+  }
+.btn-general{
+    color: #ffffff;
+    background-color: #EC651D;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    padding: 5px 20px;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+  }

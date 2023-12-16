@@ -1,0 +1,99 @@
+/* Banner Principal */
+.container-fluid {
+    padding: 0;
+    margin-top: -70px;
+  }
+  .banner-principal {
+    width: 100%;
+    height: 800px;
+    background-image: linear-gradient(
+          rgb(0, 0, 0, 1) 0%,    
+          rgb(0, 0, 0, 0) 25%,   
+          rgb(0, 0, 0, 0.62) 70%,   
+          rgb(0, 0, 0, 1) 100%
+        ), url('/assets/img/banner-home.webp');
+    background-size: cover;
+    background-position: top center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #ffffff;
+    flex-direction: column;
+  }
+  .banner-principal p, .buttons-banner{
+    margin-top: 30px;
+  }
+.banner-principal img{
+    width: 310px;
+  }
+.buttons-banner a:nth-child(2){
+    margin-left: 15px;
+    margin-right: 15px;
+}
+  .texture-banner {
+    margin-top: -31px;
+    width: 100%; 
+    z-index: 5; 
+  }
+.col-md-6{
+    padding: 0;
+}
+/*About us*/
+.title-color{
+    color: #350D1A;
+}
+/* Specials */
+.specials-bg{
+    width: 100%;
+    background-image: url('/assets/img/specials-bg.webp');
+    background-size: cover;
+    background-position: top center;
+}
+.banner-promo img{
+    border-radius: 15px;
+    margin-top: 50px;
+}
+/* Enjoy */
+.enjoy-container, .special-events-bg {
+    height: 500px;
+}
+.row{
+    margin: 0;
+}
+.enjoy-menu, .enjoy-bar, .special-events-bg {
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #ffffff;
+    flex-direction: column;
+}
+.enjoy-menu{
+    background-image: url('/assets/img/enjoy-our-menu-bg.webp');
+}
+.enjoy-bar{
+    background-image: url('/assets/img/drink-some-of-our-bar.webp');
+}
+.enjoy-text{
+    font-family: 'Oooh Baby', cursive;
+    font-size: 4.5rem;
+}
+.shadow-enjoy-menu{
+    -webkit-text-stroke: 0.5px #EC651D;
+    text-shadow: 0 4px 20px #EC651D;
+    margin-top: -20px;
+    margin-bottom: 0;
+}
+.shadow-enjoy-bar{
+    -webkit-text-stroke: 0.5px #194185;
+    text-shadow: 0 4px 20px #194185;
+    margin-top: -20px;
+    margin-bottom: 0;
+}
+/* Special events */
+.special-events-bg{
+    background-image: url('/assets/img/special-events-bg.webp');
+}
