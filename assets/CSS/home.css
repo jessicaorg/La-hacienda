@@ -43,6 +43,9 @@
 .title-color{
     color: #350D1A;
 }
+.img-about{
+    margin-top: -50px;
+}
 /* Specials */
 .specials-bg{
     width: 100%;
