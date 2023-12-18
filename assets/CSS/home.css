@@ -11,7 +11,7 @@
           rgb(0, 0, 0, 0) 25%,   
           rgb(0, 0, 0, 0.62) 70%,   
           rgb(0, 0, 0, 1) 100%
-        ), url('assets/img/banner-home.webp');
+        ), url('../img/banner-home.webp');
     background-size: cover;
     background-position: top center;
     display: flex;
@@ -46,7 +46,7 @@
 /* Specials */
 .specials-bg{
     width: 100%;
-    background-image: url('assets/img/specials-bg.webp');
+    background-image: url('../img/specials-bg.webp');
     background-size: cover;
     background-position: top center;
 }
@@ -72,10 +72,10 @@
     flex-direction: column;
 }
 .enjoy-menu{
-    background-image: url('assets/img/enjoy-our-menu-bg.webp');
+    background-image: url('../img/enjoy-our-menu-bg.webp');
 }
 .enjoy-bar{
-    background-image: url('assets/img/drink-some-of-our-bar.webp');
+    background-image: url('../img/drink-some-of-our-bar.webp');
 }
 .enjoy-text{
     font-family: 'Oooh Baby', cursive;
@@ -95,5 +95,5 @@
 }
 /* Special events */
 .special-events-bg{
-    background-image: url('assets/img/special-events-bg.webp');
+    background-image: url('../img/special-events-bg.webp');
 }
