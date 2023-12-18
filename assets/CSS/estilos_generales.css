@@ -1,7 +1,7 @@
 /* Fonts */
 @font-face {
     font-family: FagoColf-Black;
-    src: url(/assets/Fonts/FagoCoLf-Black.ttf);
+    src: url(assets/Fonts/FagoCoLf-Black.ttf);
 }
 /*General styles*/
 * {
