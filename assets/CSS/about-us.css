@@ -1,0 +1,47 @@
+.banner-about-us {
+    width: 100%;
+    height: 800px;
+    background-image: linear-gradient(
+          rgb(0, 0, 0, 0.75) 0%,    
+          rgb(0, 0, 0, 0.75) 100%  
+        ), url('../img/banner-principal-about-us.webp');
+    background-size: cover;
+    background-position: top center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+  }
+  .texture-top-orange {
+    margin-top: -100px;
+    width: 100%; 
+    z-index: 50; 
+  }
+  .texture-bottom-orange{
+    margin-top: -55px;
+    width: 100%; 
+  }
+  .banner-about-us h1{
+    color: #EC651D;
+  }
+  .open-daily-bg{
+    background-color: #EC651D;
+    color: #ffffff;
+    text-align: center;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .open-daily-bg p{
+    font-weight: 700;
+    text-transform: none;
+    font-size: 2rem;
+    font-family: FagoColf-Black;
+  }
+  .open-daily-bg h2{
+    text-transform: none;
+  }
+  .location-map {
+    margin-top: 1px;
+  }
