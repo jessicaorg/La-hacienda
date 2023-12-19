@@ -11,9 +11,10 @@
     align-items: center;
     justify-content: center;
     color: #ffffff;
+
   }
   .texture-top-orange {
-    margin-top: -100px;
+    margin-top: -31px;
     width: 100%; 
     z-index: 50; 
   }
@@ -32,6 +33,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: -45px;
   }
   .open-daily-bg p{
     font-weight: 700;
@@ -41,7 +43,4 @@
   }
   .open-daily-bg h2{
     text-transform: none;
-  }
-  .location-map {
-    margin-top: 1px;
   }

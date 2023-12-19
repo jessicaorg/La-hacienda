@@ -1,5 +1,5 @@
 /* Banner Principal */
-.container-fluid {
+.banner--container, .banner-about-us, .specials-conainer{
     padding: 0;
     margin-top: -70px;
   }

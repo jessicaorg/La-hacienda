@@ -1,0 +1,37 @@
+.specials-conainer .text-color{
+    color: #EC651D;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.img-specials{
+    padding: 10px;
+    border: 2px solid #ffffff;
+}
+.text-specials{
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    border: 2px solid #EC651D;
+    padding-left: 20px;
+}
+.text-specials p{
+    font-family: FagoColf-Black;
+    font-size: 2rem;
+    line-height: 1.2;
+}
+.text-specials p span{
+    color: #EC651D;
+}
+.specials-conainer h3{
+    text-transform: none;
+    font-size: 3rem;
+}
+.t-specials-l{
+    margin-left: 7%;
+}
+.t-specials-r{
+    margin-right: 7%;
+}
