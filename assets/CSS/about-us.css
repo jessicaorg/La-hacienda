@@ -11,15 +11,13 @@
     align-items: center;
     justify-content: center;
     color: #ffffff;
-
   }
   .texture-top-orange {
-    margin-top: -31px;
+    margin-top: -45px;
     width: 100%; 
     z-index: 50; 
   }
   .texture-bottom-orange{
-    margin-top: -55px;
     width: 100%; 
   }
   .banner-about-us h1{
@@ -33,7 +31,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: -45px;
   }
   .open-daily-bg p{
     font-weight: 700;

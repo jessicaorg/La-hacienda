@@ -1,0 +1,40 @@
+.banner-reservations {
+    width: 100%;
+    height: 800px;
+    background-image: linear-gradient(
+          rgb(0, 0, 0, 0.75) 0%,    
+          rgb(0, 0, 0, 0.75) 100%  
+        ), url('../img/banner-reservations.webp');
+    background-size: cover;
+    background-position: top center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    margin-top: -70px;
+    text-align: center;
+  }
+.banner-reservations h1{
+    color: #EC651D;
+}
+.reservations-text{
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.btn-reservations{
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    padding: 5px 20px;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    font-weight: 500;
+  }
+  .btn-make-r{
+    color: #ffffff;
+    background-color: #1D1D1B;
+  }
+  .btn-menu{
+    background-color: #ffffff;
+    color: #1D1D1B;
+  }
