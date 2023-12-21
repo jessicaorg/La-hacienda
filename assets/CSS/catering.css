@@ -1,0 +1,13 @@
+.card-container{
+    background-color: rgba(14, 2, 2, 0.85) ;
+    color: #ffffff;
+    padding: 15px;
+}
+.card-body-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
