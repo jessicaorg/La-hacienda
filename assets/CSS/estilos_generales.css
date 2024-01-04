@@ -47,6 +47,9 @@ a {
   .navbar-toggler{
     border: none ;
   }
+  .navbar-nav .nav-link.active, .nav-link:focus, .nav-link:hover{
+    color: #EC651D !important;
+  }
  
 
   /*responsive*/
@@ -76,7 +79,7 @@ a {
         padding-left: 5px;
        
       }
-      .nav-link.active{
+      .navbar-nav .nav-link.active{
         color: #ffffff !important;
         background-color: #EC651D;
       }
