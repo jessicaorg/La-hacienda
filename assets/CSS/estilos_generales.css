@@ -44,3 +44,46 @@ a {
     border: 1px solid #ffffff;
     border-radius: 10px;
   }
+  .navbar-toggler{
+    border: none ;
+  }
+ 
+
+  /*responsive*/
+  @media (max-width: 991px){
+    .banner--container, .banner-about-us, .specials-conainer, .banner-reservations{
+        margin-top: 0 !important;
+    }
+    .nav-link{
+        color: black !important;
+        font-size: 1.25rem !important;
+        text-align: left;
+        padding-top: 0;
+        padding-bottom: 5px;
+    }
+    h1,h2{
+        font-size: 2rem;
+    }
+    p{
+        font-size: 1rem;
+    }
+    .navbar-collapse{
+        border-top: 1px solid #000000;
+        padding: 10px 0;
+        margin-top: 10px;
+      }
+      .nav-link{
+        padding-left: 5px;
+       
+      }
+      .nav-link.active{
+        color: #ffffff !important;
+        background-color: #EC651D;
+      }
+      .footer-container {
+        
+        height: 450px !important;
+
+}
+
+  }

@@ -41,3 +41,28 @@
   .open-daily-bg h2{
     text-transform: none;
   }
+
+  /*Responsive*/
+  @media (max-width: 1350px){
+    .open-daily-bg{
+      margin-top: -20px !important;
+    }
+    .texture-top-orange {
+      margin-top: -30px;
+  }
+}
+  @media (max-width: 768px){
+    .banner-about-us{
+        height: 700px;
+        padding: 10px;
+    }
+    .open-daily-bg p{
+      font-size: 1.5rem;
+    }
+}
+@media (max-width: 535px){
+  .texture-bottom-orange {
+    margin-top: -15px;
+  }
+
+}

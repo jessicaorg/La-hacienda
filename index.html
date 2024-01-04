@@ -25,32 +25,36 @@
     <header>
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container">
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav nav-fill w-100">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="about-us.html"
-                  >About us</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="specials.html">Specials</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Food & bar</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="catering.html">Catering</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="reservations.html">Reservations</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact us</a>
-              </li>
-            </ul>
-          </div>
+            <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav nav-fill w-100">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="about-us.html">About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="specials.html">Specials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="food&bar.html">Food & bar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="catering.html">Catering</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="reservations.html">Reservations</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" target="_blank" href="https://api.whatsapp.com/send?phone=18069222741&text=Hello%2C%20I%20would%20like%20more%20information%20about%20your%20services.">Contact us</a>
+                  </li>
+                </ul>
+            </div>
         </div>
-      </nav>
+    </nav>    
     </header>
     <!-- Header -->
 
@@ -63,31 +67,38 @@
             alt="La Hacienda Logo"
           />
         </h1>
-        <p>
+        <p class="text-lahacienda">
           “ Our chain of Authentic Mexican Restaurants carry generations of
           <br />
           traditional Mexican plates.”
         </p>
         <div class="buttons-banner">
-          <a class="btn-general" href="">Our menu</a>
-          <a class="btn-general" href="">Make a reservation</a>
-          <a class="btn-general" href="">Order catering</a>
+          <a class="btn-general btn-banners" href="">Our menu</a>
+          <a class="btn-general btn-banners" href="">Make a reservation</a>
+          <a class="btn-general btn-banners" href="">Order catering</a>
         </div>
         
       </div>
     </div>
 
-    <img
-      class="texture-banner"
-      src="assets/img/banner-texture.webp"
-      alt="Banner texture"
-    />
+    
     <!-- Banner principal -->
 
     <!-- About us -->
-    <div class="container">
+    <img
+      class="texture-banner"
+      src="assets/img/textur-white.webp"
+      alt="Banner texture"
+    />
+    <div class="container about-us-container">
       <div class="row d-flex align-items-center">
-        <div class="col-md-6 pe-4">
+        <div class="col-md-6 p-4 order-md-last">
+          <h2 class="title-color">About us</h2>
+          <p>Family owned and managed. We are a Mexican Family Restaurant that seeks to offer a wide variety of dishes that are 100% of Mexican origin, made with fresh, high-quality products. As a customer, you are our inspiration that motivates us to continue working to bring the best of our food to our tables. Homemade, made with love! Camarena Angel Family</p>
+          <a class="btn-general" href="about-us.html">Read more</a>
+        </div>
+
+        <div class="col-md-6 gallery-about">
           <div class="row ">
             <div class="col-md-6 text-center mt-5">
               <img src="assets/img/about-us-img-1.webp" alt="Imagen 1" class="img-fluid">
@@ -106,18 +117,48 @@
           </div>
         </div>
   
-        <div class="col-md-6">
-          <h2 class="title-color">About us</h2>
-          <p>Family owned and managed. We are a Mexican Family Restaurant that seeks to offer a wide variety of dishes that are 100% of Mexican origin, made with fresh, high-quality products. As a customer, you are our inspiration that motivates us to continue working to bring the best of our food to our tables. Homemade, made with love! Camarena Angel Family</p>
-          <a class="btn-general" href="">Read more</a>
-        </div>
+        
       </div>
     </div>
     <!-- About us -->
 
     <!-- Specials -->
     <div class="container-fluid mt-5 specials-bg">
-      <div class="container pt-5 pb-5">
+      <div class="container pt-5 pb-5 d-md-none">
+        <h2 class="text-center text-light">Specials</h2>
+        <div class="col-md-12">
+          <div class="banner-promo text-center">
+            <img src="assets/img/monday-movil.webp" alt="Banner 1" class="img-fluid">
+          </div>
+        </div>
+        <div class="col-md-12">
+          <div class="banner-promo">
+            <img src="assets/img/tuesday-movil.webp" alt="Banner 2" class="img-fluid">
+          </div>
+        </div>
+        <div class="col-md-12">
+          <div class="banner-promo">
+            <img src="assets/img/wednesday-movil.webp" alt="Banner 2" class="img-fluid">
+          </div>
+        </div>
+        <div class="col-md-12">
+          <div class="banner-promo">
+            <img src="assets/img/thursday-movil.webp" alt="Banner 2" class="img-fluid">
+          </div>
+        </div>
+        <div class="col-md-12">
+          <div class="banner-promo">
+            <img src="assets/img/friday-movil.webp" alt="Banner 2" class="img-fluid">
+          </div>
+        </div>
+        <div class="col-md-12">
+          <div class="banner-promo">
+            <img src="assets/img/saturday-movil.webp" alt="Banner 2" class="img-fluid">
+          </div>
+        </div>
+      </div>
+
+      <div class="container pt-5 pb-5 d-none d-md-block">
         <h2 class="text-center text-light">Specials</h2>
         <div class="col-md-12">
           <div class="banner-promo text-center">
@@ -173,8 +214,8 @@
     <div class="container-fluid text-center mt-0 special-events-bg">
       <h1 class="text-light">For special events</h1>
       <div class="buttons-banner">
-        <a class="btn-general" href="">Make a reservation</a>
-        <a class="btn-general" href="">Order catering</a>
+        <a class="btn-general btn-banners" href="">Make a reservation</a>
+        <a class="btn-general btn-banners" href="">Order catering</a>
       </div>
     </div>
     <!-- Special events -->

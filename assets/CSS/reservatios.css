@@ -38,3 +38,13 @@
     background-color: #ffffff;
     color: #1D1D1B;
   }
+
+  /*Responsive*/
+  @media (max-width: 768px){
+    .reservations-text{
+      font-size: 1.5rem;
+    }
+    .banner-reservations{
+      height: 700px;
+    }
+  }

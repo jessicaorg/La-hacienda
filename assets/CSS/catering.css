@@ -10,4 +10,10 @@
     align-items: center;
 }
 
+/*Responsive*/
+@media (max-width: 768px){
+    .catering-col{
+        width: 100% !important;
+    }
+}
 

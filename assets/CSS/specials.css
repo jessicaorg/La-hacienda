@@ -35,3 +35,39 @@
 .t-specials-r{
     margin-right: 7%;
 }
+
+/*Responsive*/
+@media (max-width: 1024px){
+    .specials-conainer h3{
+        font-size: 2rem;
+        text-align: center !important;
+        margin: 40px 0 !important;
+    }
+    .text-specials p{
+        font-size: 1.5rem;
+    }
+}
+@media (max-width: 767px){
+    .img-specials{
+        text-align: center;
+    }
+   
+    .img-specials, .text-specials p, .text-specials{
+        margin: 0 !important;
+    }
+    .text-specials{
+        padding: 15px;
+    }
+    .text-s-m-t{
+        margin-top: 10px !important;
+    }
+    .text-s-m-b{
+        margin-bottom: 10px !important;
+    }
+    .specials-conainer{
+        padding: 10px;
+    }
+    .specials-conainer .text-color{
+        margin-top: 10px;
+    }
+}

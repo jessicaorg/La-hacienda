@@ -32,7 +32,7 @@
     margin-right: 15px;
 }
   .texture-banner {
-    margin-top: -31px;
+    margin-top: -40px;
     width: 100%; 
     z-index: 5; 
   }
@@ -96,7 +96,38 @@
     margin-top: -20px;
     margin-bottom: 0;
 }
+.about-us-container{
+    padding: 0;
+}
 /* Special events */
 .special-events-bg{
     background-image: url('../img/special-events-bg.webp');
+}
+
+
+/*Responsive*/
+@media (max-width: 768px){
+    .banner-principal{
+        height: 600px;
+    }
+}
+
+@media (max-width: 645px){
+    .btn-banners{
+        display: block;
+        padding: 5px 50px;
+        border-radius: 10px;
+        margin: 20px 0 !important;
+        width: 100%;
+    }
+    .text-lahacienda, .banner-principal img{
+        width: 90%;
+    }
+    .img-about{
+        margin-top: 0;
+    }
+    .enjoy-menu, .enjoy-bar{
+        padding-left: 20px;
+        padding-right: 20px;
+    }   
 }
