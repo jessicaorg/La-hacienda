@@ -17,6 +17,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Oooh+Baby&display=swap" rel="stylesheet">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- CSS -->
     <link rel="stylesheet" href="assets/CSS/styles.css" />
   </head>
@@ -61,13 +63,13 @@
     <!-- Banner principal -->
     <div class="container-fluid banner-reservations">
       <div class="container">
-        <h1>Reservations</h1>
+        <h1 data-aos="fade-up" data-aos-duration="1500">Reservations</h1>
         <p class="mt-4 reservations-text">
             Live your moment! Party Room your family party: <br>
             Birthdays, Anniversaries, Baby Shower, Reunions and more. <br>
             Don't pay commissions for free soft drinks on your first reservation
         </p>
-        <p class=" mt-5">
+        <p class=" mt-5" data-aos="fade-down" data-aos-duration="1500">
             * Does not apply to alcoholic beverages and bottled beverages (capacity up to 50 people)
         </p>
         <div class="buttons-banner mt-5">
@@ -86,7 +88,7 @@
     />
     <div class="container-fluid open-daily-bg">
       <div class="container d-flex align-items-center">
-        <div class="col-md-12">
+        <div class="col-md-12" data-aos="fade-up" data-aos-duration="1500">
           <h2>Open Daily!</h2>
           <p>Monday - Friday 10: 00 am - 10: 00 pm <br>
             Saturday y Sunday 8:00 am - 10:00 pm <br>
@@ -146,5 +148,10 @@
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
+        <!-- AOS -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+        <!-- Main js -->
+        <script src="assets/js/main.js"></script>
   </body>
 </html>

@@ -26,6 +26,8 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- CSS -->
     <link rel="stylesheet" href="assets/CSS/styles.css" />
   </head>
@@ -73,8 +75,8 @@
         <h2 class="text-center text-color">Special of weeks</h2>
         <div class="row justify-content-center">
           <h3 class="text-light mb-4 p-0 mt-5 t-specials-l">Monday</h3>
-          <div class="col-md-4 img-specials me-3">
-            <img
+          <div class="col-md-4 img-specials me-3" data-aos="fade-right" data-aos-duration="700">
+            <img 
               src="assets/img/La-hacienda-omelette.webp"
               alt="Banner 1"
               class="img-fluid"
@@ -102,7 +104,7 @@
             </p>
           </div>
 
-          <div class="col-md-4 img-specials">
+          <div class="col-md-4 img-specials" data-aos="fade-left" data-aos-duration="1000">
             <img
               src="assets/img/La-hacienda-huevos-rancheros.webp"
               alt="Banner 1"
@@ -113,7 +115,7 @@
 
         <div class="row justify-content-center">
             <h3 class="text-light mb-4 p-0 mt-5 t-specials-l">Wenesday</h3>
-            <div class="col-md-4 img-specials me-3">
+            <div class="col-md-4 img-specials me-3" data-aos="fade-right" data-aos-anchor-placement="center-bottom" data-aos-duration="900">
               <img
                 src="assets/img/La-hacienda-huevos-a-la-mexicana.webp"
                 alt="Banner 1"
@@ -133,14 +135,14 @@
             <h3 class="text-light mb-4 p-0 mt-5 text-end t-specials-r">
             Thursday
             </h3>
-            <div class="col-md-7 text-specials me-3 text-s-m-b">
+            <div class="col-md-7 text-specials me-3 text-s-m-b" >
               <p>
                 Migas Bearkfast <br />
                 Chimichanga <br />
                 Lunch express for <span>$8.99</span>
               </p>
             </div>
-            <div class="col-md-4 img-specials">
+            <div class="col-md-4 img-specials" data-aos="fade-left" data-aos-anchor-placement="center-bottom" data-aos-duration="900">
               <img
                 src="assets/img/La-hacienda-migas-bearkfast.webp"
                 alt="Banner 1"
@@ -151,7 +153,7 @@
 
           <div class="row justify-content-center">
             <h3 class="text-light mb-4 p-0 mt-5 t-specials-l">Friday</h3>
-            <div class="col-md-4 img-specials me-3">
+            <div class="col-md-4 img-specials me-3" data-aos="fade-right" data-aos-anchor-placement="center-bottom" data-aos-duration="900">
               <img
                 src="assets/img/La-hacienda-chilaquiles-and-egg.webp"
                 alt="Banner 1"
@@ -172,7 +174,7 @@
 
     <!-- Special events -->
     <div class="container-fluid text-center mt-0 special-events-bg">
-      <h1 class="text-light">For special events</h1>
+      <h2 class="text-light" data-aos="fade-up" data-aos-anchor-placement="center-bottom">For special events</h2>
       <div class="buttons-banner">
         <a class="btn-general btn-banners" target="_blank" href="https://api.whatsapp.com/send?phone=18069222741&text=Hello%2C%20I%20would%20like%20to%20make%20a%20reservation.">Make a reservation</a>
         <a class="btn-general btn-banners" target="_blank" href="https://api.whatsapp.com/send?phone=18069222741&text=Hello%2C%20I%20would%20like%20to%20hire%20your%20catering%20service.">Order catering</a>
@@ -220,5 +222,10 @@
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
+     <!-- AOS -->
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+     <!-- Main js -->
+     <script src="assets/js/main.js"></script>
   </body>
 </html>
