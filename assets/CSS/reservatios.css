@@ -33,10 +33,18 @@
   .btn-make-r{
     color: #ffffff;
     background-color: #1D1D1B;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  }
+  .btn-make-r:hover{
+    background-color: #000000;
   }
   .btn-menu{
     background-color: #ffffff;
-    color: #1D1D1B;
+    color: #1d1d1b93;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  }
+  .btn-menu:hover{
+    background-color: #ffffffbb;
   }
 
   /*Responsive*/
