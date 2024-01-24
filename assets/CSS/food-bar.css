@@ -13,6 +13,12 @@ padding: 100px 10px;
     width: 100%;
     padding: 0;
 }
+.btn-bar{
+    margin-top: -50px;
+}
+.title-food-bar-2{
+    margin-top: 100px !important;
+}
 
 
 @media (max-width: 768px){
@@ -36,4 +42,9 @@ padding: 100px 10px;
      .pdf-menu-bar{
         height: 200px;
     }
+
+    .btn-banners {
+        padding: 5px 30px;
+    }
+
 }
